@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #52525a;
+}
+
+/* general styles */
+body {
+  background-color: #fafaf9;
+}
+
+section {
+  width: 100%;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 9.125rem auto;
+  max-width: 71rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    flex-direction: row;
+  }
+}
+
+/* reviewers section styles*/
+h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  color: #18181b;
+  margin-bottom: 0.75rem;
+}
+
+.logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #f5c044;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.review-preview {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+ul > li {
+  background-image: url("/images/Done_ring_round_fill.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 28px;
+  background-size: 20px 20px;
+  line-height: 20px;
+  font-size: 0.87rem;
+}
+
+/* review item styles */
+
+.reviews-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.google-div {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.meta-div {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.review-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 22.5rem;
+  background-color: #fff;
+  padding: 28px 40px;
+  border-radius: 2rem;
+  gap: 1rem;
+  width: fit-content;
+}
+
+.review-item h3 {
+  color: #18181b;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.item-header {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  height: 2rem;
+  align-items: center;
+}
+.head-image {
+  width: auto;
+  height: 100%;
+}
+.item-header div {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+}
